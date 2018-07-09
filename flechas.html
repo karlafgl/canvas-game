@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="<viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Dibujando con flechas</title>
+    
+      
+  </head>
+  <body>
+    <div>
+      <h1 class="container is-fullhd h1 has-text-weight-bold title is-1 has-background-light" >Arrows</h1>
+    </div>
+    <p>Do you wanna play? <br> Start moving your Arrows on your kearbord</p>
+
+    <canvas width="300" height="300" id="area_de_dibujo"></canvas>
+    <p>Do you wanna pick a different color?<br/>Keep the good work up! </p>
+    <input type="button" value="Red Color" id="boton_Rojo" class="button is-danger">
+    <input type="button" value="Green Color" id="boton_Verde" class="button is-primary">
+    <input type="button" value="Blue Color" id="boton_Azul" class="button is-info">
+    <br/>
+    <br/>
+    <input type="button" value="Delete" id="borrado" class="button is-warning">
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Game</strong> by <a href="https://jgthms.com">Karla Gonzalez</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+        </div>
+</footer>
+    <script type="text/javascript" src="eventos.js"></script>
+  </body>
+</html>

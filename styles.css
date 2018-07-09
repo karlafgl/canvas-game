@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+	color:black;
+	font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+#titulo{
+  background-color: #1C3642
+}
+
+p {
+	font-size: 1em;
+}
+
+p span {
+	font-weight: bold;
+	font-size: 1.2em ;
+}
+
+canvas {
+	background-color: #1C3642;
+	box-shadow: 0 5px 5px 0px #000;
+}
+
